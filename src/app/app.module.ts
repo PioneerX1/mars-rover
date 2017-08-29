@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { routing } from './app.routing';
 import { AppComponent } from './app.component';
+import { RoverFormComponent } from './rover-form/rover-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RoverFormComponent
   ],
   imports: [
     BrowserModule,
